@@ -14,10 +14,10 @@ def random_walk(N, steps, dh):
     
     return history
 
-N = 100
+N = 2000
 steps = 100
 dh = 1.0
-bins = 20
+bins = 40
 
 data = random_walk(N, steps, dh)
 
